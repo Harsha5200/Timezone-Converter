@@ -1,0 +1,103 @@
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-time-zone {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .time-zone-select {
+    width: 100%;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .date-picker {
+    padding: 5px;
+  }
+  
+  .time-zones-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .time-zone-display {
+    border: 1px solid #ccc;
+    padding: 15px;
+    position: relative;
+    background-color: #f9f9f9;
+  }
+  
+  .time-zone-display.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .time {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .time-slider {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .time-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .shareable-link {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .shareable-link input {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .shareable-link button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
